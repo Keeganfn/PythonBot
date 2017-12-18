@@ -36,5 +36,5 @@ async def commands(ctx):
 	await bot.say("To get info on a user: #info @user")
 	await bot.say("More commands coming soon!")
 
-bot.run("MzkxMzA5MjE1NjY0MTc3MTUy.DRWyrA.ExifRHOC354vDucFiSFWs7ewVmc")
+bot.run("Token")
 
