@@ -20,5 +20,5 @@ async def ping(ctx):
 
 @bot.command(pass_context=True)
 
-bot.run("MzkxMzA5MjE1NjY0MTc3MTUy.DRWyrA.ExifRHOC354vDucFiSFWs7ewVmc")
+bot.run("Token")
 
