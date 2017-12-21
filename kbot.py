@@ -84,5 +84,5 @@ async def roster(ctx, *,arg):
 
 
 	
-bot.run("MzkxMzA5MjE1NjY0MTc3MTUy.DRz0DA.pS8_5lvCt32AqKbVpj7TeIBQzqA")
+bot.run("Token")
 
