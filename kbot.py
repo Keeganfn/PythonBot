@@ -6,6 +6,8 @@ from discord.ext.commands import Bot
 import asyncio 
 from bs4 import BeautifulSoup 
 import requests
+import random
+import re
 
 bot = commands.Bot(command_prefix="#")
 
@@ -37,6 +39,17 @@ async def commands(ctx):
 	await bot.say("To ping the bot: #ping")
 	await bot.say("To get info on a user: #info @user")
 	await bot.say("More commands coming soon!")
+
+@bot.command(pass_context=True)
+async def randomPerson(ctx,*,people):
+	
+	players = re.split("/ |, |\*|\n", people )
+	playerNumber = len(players)
+	selection = random.randint(1, playerNumber)
+
+	await bot.say(players[selection] + " has been chosen")
+	
+
 
 @bot.command(pass_context=True)
 async def roster(ctx, *,arg):
