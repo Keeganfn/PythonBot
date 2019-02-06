@@ -1,2 +1,3 @@
 # PythonBot
-Trying to make a bot
+Discord bot that can scrape esports scores and information from websites and displays them. Also has other basic commands.
+
